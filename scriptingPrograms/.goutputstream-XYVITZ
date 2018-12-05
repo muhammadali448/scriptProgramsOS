@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "1.Press 1 who is logged in"
+echo "2.Press 2 Date Time"
+read a
+if [[ $a == 1 ]]
+then
+echo "Who is logged in:"
+
+echo "$(who)"
+elif [[ $a == 2 ]]
+then
+  echo "Date Time:"
+  echo "$(date)"
+else
+  echo "Wrong try again"
+fi
+
