@@ -1,11 +1,6 @@
-#!bin/bash
-echo "######## MAIL TRANSFERRED TO OLD FROM NEW ONE ################"
-if [  ]
-then
-echo "You old mailbox id is"
-elif [ mail 123@gmail ]
-then
-echo "your new mailbox id is"
-else
-echo "THE CONTENTS OF OLD MAILBOX ID HAVE BEEN TRANSFERRED TO OLD TO THE NEW ONE"
-fis
+clear
+echo "Your old mail box id is: ma6627863@gmail.com"
+echo "Your new mail box id is: muhammadali19960@gmail.com"
+echo "The content of the old mailbox ID is transfered to the new mailbox ID"
+
+

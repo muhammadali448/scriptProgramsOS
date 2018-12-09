@@ -22,7 +22,7 @@ case "$b" in
     echo "Do you want to proceed copy the file 1 to file2?? ( y for yes )"
     read b
    if [ $b == y ]; then 
-    cat $file1 >> $file2
+    cp $file1 $file2
     echo "File contents copy"; cat $file2
    else
     echo "Oky you dont want to copy"
@@ -33,7 +33,7 @@ case "$b" in
  else
   echo "$file2 not exist"
  fi
- sleep 2
+ sleep 5
  clear
  ;;
 q)
